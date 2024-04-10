@@ -1,0 +1,302 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100% !important;
+  overflow-x: hidden !important;
+  background-color: rgba(158, 157, 157, 0.253);
+}
+
+header {
+  background-image: url(../img/fondo.webp);
+  border-bottom: 0.0625rem solid black;
+  text-align: center;
+  padding: 0.625rem 1.25rem;
+  background-color: rgba(158, 157, 157, 0.253);
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header:hover {
+  font-size: 25px;
+  text-decoration: underline;
+  background-color: rgba(0, 0, 0, 0.055);
+}
+header a {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+main {
+  background-color: rgba(158, 157, 157, 0.253);
+}
+main .fondo-carrousel {
+  background-image: url(../img/fondo\ carrousel.jpg);
+}
+main .fondo-carrousel img {
+  width: 600px;
+  height: 400px;
+}
+main h1 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+}
+main h2 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+}
+main .inicioImg {
+  display: flex;
+  flex-direction: row-reverse;
+}
+main .inicioImg h5 {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  border: outset black 5px;
+  margin: 10px;
+}
+main .inicioImg img {
+  height: 400px;
+  width: 500px;
+}
+main h2 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+}
+main .inicioImg2 {
+  display: flex;
+  flex-direction: row;
+}
+main h5 {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  border: outset black 5px;
+  margin: 10px;
+}
+main img {
+  height: 450px;
+  width: 500px;
+}
+main p {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+}
+main .productos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-around;
+}
+main .productos .imgCards {
+  width: 284px;
+}
+main .presentacion2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgba(0, 0, 0, 0.377);
+}
+main .presentacion3 {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: black;
+}
+main .locales {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  justify-content: space-between;
+}
+main .locales .local1 {
+  width: 800px;
+  height: 450px;
+}
+main .ubicacion {
+  text-align: center;
+  margin: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+main .ubicacion strong {
+  text-align: center;
+}
+main:hover {
+  font-size: 20px;
+}
+main .ofertas-2 {
+  text-align: center;
+  text-decoration: underline;
+  border: 3px solid black;
+}
+main .ofertas {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+  color: red;
+}
+main .ofertas:hover {
+  font-size: 20px;
+}
+main .presentacion {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+}
+main .luisito {
+  width: 600px;
+  height: 500px;
+}
+main .luisito2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+main form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+main label {
+  display: block;
+  margin-bottom: 10px;
+}
+main input[type=text],
+main input[type=email],
+main textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+main input[type=submit] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+main input[type=submit]:hover {
+  background-color: #0056b3;
+}
+main .header {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+main .header:hover {
+  font-size: 25px;
+  text-decoration: underline;
+  background-color: rgba(0, 0, 0, 0.055);
+}
+main .historia {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  margin: 15px;
+  justify-content: space-around;
+}
+main .historia .historiaBarra {
+  border: 4px solid black;
+}
+main .historia .historiaBarra strong {
+  list-style: none;
+}
+main .historia2 {
+  display: flex;
+  flex-direction: row-reverse;
+  color: black;
+  margin: 15px;
+  justify-content: space-between;
+}
+main .historia2 .historiaBarra {
+  border: 4px solid black;
+}
+@media (max-width: 48rem) {
+  main .inicioImg {
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+  main .inicioImg img {
+    width: 100%;
+    height: 600px;
+  }
+  main .inicioImg h5 {
+    border: none;
+  }
+  main .inicioImg2 {
+    display: flex;
+    flex-direction: column;
+  }
+  main .inicioImg2 .ensaladaInicio {
+    width: 100%;
+  }
+  main .inicioImg2 h5 {
+    border: none;
+  }
+  main .productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+  }
+  main .historia {
+    display: flex;
+    flex-direction: column-reverse;
+    border: none;
+  }
+  main .historia img {
+    width: 100%;
+  }
+  main .historia .historiaBarra {
+    border: none;
+    font-size: 15px;
+    list-style: none;
+  }
+  main .historia2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  main .historia2 img {
+    width: 100%;
+  }
+  main .historia2 .historiaBarra {
+    border: none;
+    font-size: 15px;
+    list-style: none;
+  }
+}
+@media (max-width: 524px) {
+  main .fondo-carrousel img {
+    width: 400px;
+    height: 300px;
+  }
+  main .productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.125rem;
+  }
+  main .locales {
+    display: flex;
+    flex-direction: column-reverse;
+    border: none;
+    width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  main .fondo-carrousel img {
+    width: 100%;
+  }
+}
+
+footer {
+  background-color: rgba(49, 45, 45, 0.253);
+}
+
+/*# sourceMappingURL=style.css.map */
