@@ -22,7 +22,7 @@ header {
 header:hover {
   font-size: 25px;
   text-decoration: underline;
-  background-color: rgba(0, 0, 0, 0.055);
+  background-color: rgba(49, 45, 45, 0.253);
 }
 header a {
   text-transform: uppercase;
@@ -30,7 +30,7 @@ header a {
 }
 
 main {
-  background-color: rgba(158, 157, 157, 0.253);
+  background-color: rgba(49, 45, 45, 0.253);
 }
 main .fondo-carrousel {
   background-image: url(../img/fondo\ carrousel.jpg);

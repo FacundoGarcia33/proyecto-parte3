@@ -1,0 +1,14 @@
+@mixin grid {
+              display: flex;
+              flex-direction: row;
+              border: 2px solid black;
+              justify-content: space-between;
+}
+@mixin flex-reverse {
+              display: flex;
+              flex-direction: row-reverse; 
+}
+@mixin flex {
+              display: flex;
+              flex-direction: row;
+}
