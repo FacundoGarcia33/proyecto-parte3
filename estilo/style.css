@@ -19,14 +19,13 @@ header {
   color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-header:hover {
-  font-size: 25px;
-  text-decoration: underline;
-  background-color: rgba(49, 45, 45, 0.253);
-}
 header a {
   text-transform: uppercase;
   font-weight: bold;
+}
+header a:hover {
+  font-size: 25px;
+  text-decoration: underline;
 }
 
 main {
@@ -94,8 +93,14 @@ main .productos {
   grid-template-columns: repeat(4, 1fr);
   justify-content: space-around;
 }
-main .productos .imgCards {
+main .productos .card {
+  width: 400px;
+}
+main .productos .card .imgCards {
   width: 284px;
+}
+main .productos .card p {
+  font-size: 20px;
 }
 main .presentacion2 {
   text-align: center;
@@ -126,9 +131,6 @@ main .ubicacion {
 main .ubicacion strong {
   text-align: center;
 }
-main:hover {
-  font-size: 20px;
-}
 main .ofertas-2 {
   text-align: center;
   text-decoration: underline;
@@ -139,9 +141,6 @@ main .ofertas {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 40px;
   color: red;
-}
-main .ofertas:hover {
-  font-size: 20px;
 }
 main .presentacion {
   text-align: center;
@@ -287,6 +286,12 @@ main .historia2 .historiaBarra {
     flex-direction: column-reverse;
     border: none;
     width: 100%;
+  }
+}
+@media (max-width: 461px) {
+  main .locales img {
+    width: 200px;
+    height: 250px;
   }
 }
 @media (max-width: 320px) {
